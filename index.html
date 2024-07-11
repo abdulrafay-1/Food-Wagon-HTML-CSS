@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodWagon | Food Delivery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <nav class="navbar py-2 navbar-expand-lg">
+        <div class="container-fluid mx-4">
+            <a class="navbar-brand d-flex align-items-center" href="#"><img src="./images/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-center mb-2 mb-lg-0">
+                    <li class="nav-item d-flex">
+                        <a class=" text-dark nav-link flex-wrap d-flex align-items-center gap-2" href="#"><b>Deliver to:</b> <img src="./images/map-marker-alt.png" alt=""> current location <b>Mohammadpur Bus Stand, Dhaka</b></a>
+                    </li>
+                </ul>
+                <form class="d-flex align-items-center ms-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="   Search Food" aria-label="Search">
+                    <button class="navbar-btn fw-semibold" type="submit"><img src="./images/user (1).png" alt="">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="banner container h-100 d-flex flex-column justify-content-center">
+            <h1>Are you starving?</h1>
+            <p>Within a few clicks, find meals that are accessible near you</p>
+            <div class="address-box">
+                <div class="d-flex gap-2">
+                    <button class="delivery-btn d-flex gap-1 align-items-center"><img src="./images/Icon.png" alt="">Delivery</button>
+                    <button class="pickup-btn d-flex gap-1 align-items-center"><img src="./images/Icon (1).png" alt="">Pickup</button>
+                </div>
+                <hr class="w-100">
+                <div class="d-flex gap-2">
+                    <input class=" address-input" type="text" name="" placeholder="Enter Your Address" id="">
+                    <button class="find-btn"><img src="./images/searchixon.png" alt="">Find Food</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container d-flex justify-content-around flex-wrap my-4">
+        <div class="card" data-aos="fade-right" data-aos-duration="700" style="width: 16rem;">
+            <img src="./images/Food Photo.png" class="card-img-top" alt="...">
+            <div class="card-body position-relative">
+                <h5 class="card-title fw-bold fs-6">Greys Vage</h5>
+                <p class="card-text fw-bold">6 Days remaining</p>
+            </div>
+        </div>
+        <div class="card" data-aos="fade-right" data-aos-duration="900" style="width: 16rem;">
+            <img src="./images/Food Photo (3).png" class="card-img-top" alt="...">
+            <div class="card-body position-relative">
+                <h5 class="card-title fw-bold fs-6">Greys Vage</h5>
+                <p class="card-text fw-bold">6 Days remaining</p>
+            </div>
+        </div>
+        <div class="card" data-aos="fade-right" data-aos-duration="1100" style="width: 16rem;">
+            <img src="./images/Food Photo (1).png" class="card-img-top" alt="...">
+            <div class="card-body position-relative">
+                <h5 class="card-title fw-bold fs-6">Greys Vage</h5>
+                <p class="card-text fw-bold">6 Days remaining</p>
+            </div>
+        </div>
+        <div class="card" data-aos="fade-right" data-aos-duration="1300" style="width: 16rem;">
+            <img src="./images/Food Photo (2).png" class="card-img-top" alt="...">
+            <div class="card-body position-relative">
+                <h5 class="card-title fw-bold fs-6">Greys Vage</h5>
+                <p class="card-text fw-bold">6 Days remaining</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work my-3 ">
+        <h2 class="text-center py-5">How does it work</h2>
+        <div class="container d-flex justify-content-around flex-wrap" data-aos="zoom-in" data-aos="2000">
+            <div class="work-spec mb-3">
+                <img class="mb-3" src="./images/mark.png" alt="">
+                <h5 class="fw-semibold">Select location</h5>
+                <p class="text-center">Choose the location where your food will be delivered.</p>
+            </div>
+            <div class="work-spec mb-3">
+                <img class="mb-3" src="./images/Invoice.png" alt="">
+                <h5 class="fw-semibold">Choose order</h5>
+                <p class="text-center">Check over hundreds of menus to pick your favorite food</p>
+            </div>
+            <div class="work-spec mb-3">
+                <img class="mb-3" src="./images/menu 2.png" alt="">
+                <h5 class="fw-semibold">Pay advance</h5>
+                <p class="text-center">It's quick, safe, and simple. Select several methods of payment</p>
+            </div>
+            <div class="work-spec mb-3">
+                <img class="mb-3" src="./images/Icons.png" alt="">
+                <h5 class="fw-semibold">Enjoy meals</h5>
+                <p class="text-center">Food is made and delivered directly to your home.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular-item">
+        <h2 class="text-center text-dark fw-bold my-5">Popular Items</h2>
+        <div class="d-flex flex-wrap align-items-center mx-5 justify-content-around">
+            <div class="popular-item-cards py-3" data-aos="fade-left" data-aos-duration="1000">
+                <img src="./images/Frame 40.png" alt="">
+                <p class="my-2 popular-card-title">Cheese Burger</p>
+                <p class="text-orange my-1"><img src="./images/map location.png" alt=""> Burger Arena</p>
+                <p class="popular-card-price my-1">$3.88</p>
+                <button class="order-now">Order Now</button>
+            </div>
+            <div class="popular-item-cards py-3" data-aos="fade-left" data-aos-duration="1200">
+                <img src="./images/Frame 40 (1).png" alt="">
+                <p class="my-2 popular-card-title">Toffe’s Cake</p>
+                <p class="text-orange my-1"><img src="./images/map location.png" alt=""> Top Sticks</p>
+                <p class="popular-card-price my-1">$3.88</p>
+                <button class="order-now">Order Now</button>
+            </div>
+            <div class="popular-item-cards py-3" data-aos="fade-left" data-aos-duration="1400">
+                <img src="./images/Frame 40 (2).png" alt="">
+                <p class="my-2 popular-card-title">Dancake</p>
+                <p class="text-orange my-1"><img src="./images/map location.png" alt=""> Cake World</p>
+                <p class="popular-card-price my-1">$3.88</p>
+                <button class="order-now">Order Now</button>
+            </div>
+            <div class="popular-item-cards py-3" data-aos="fade-left" data-aos-duration="1600">
+                <img src="./images/Rectangle 336.png" alt="">
+                <p class="my-2 popular-card-title">Crispy Sandwitch</p>
+                <p class="text-orange my-1"><img src=" ./images/map location.png" alt=""> Fastfood Dine</p>
+                <p class="popular-card-price my-1">$3.88</p>
+                <button class="order-now">Order Now</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="featured-resturant mx-5">
+        <h2 class="text-center text-dark fw-bold my-5">Featured Restaurants</h2>
+
+        <div class="d-flex justify-content-around align-items-center flex-wrap">
+            <div class="restaurant-cards my-4">
+                <img width="100%" src="./images/Food Photox.png" alt="">
+                <div class="d-flex gap-4 my-3 align-items-center">
+                    <img src="./images/Restaruant Logo.png" alt="">
+                    <div>
+                        <p class="restaurant-title text-body-emphasis">Food World</p>
+                        <p class="text-orange fw-semibold d-flex align-items-center gap-2"><img src="./images/star Icon.png" alt="">46</p>
+                    </div>
+                </div>
+                <button class="open-tmrow-btn my-2">Opens tommorow</button>
+            </div>
+            <div class="restaurant-cards my-4">
+                <img width="100%" src="./images/Food Photox (1).png" alt="">
+                <div class="d-flex gap-4 my-3 align-items-center">
+                    <img src="./images/Restaruant Logo (2).png" alt="">
+                    <div>
+                        <p class="restaurant-title text-body-emphasis">Food World</p>
+                        <p class="text-orange fw-semibold d-flex align-items-center gap-2"><img src="./images/star Icon.png" alt="">60</p>
+                    </div>
+                </div>
+                <button class="open-now-btn my-2">Open Now</button>
+            </div>
+            <div class="restaurant-cards my-4">
+                <img width="100%" src="./images/Food Photox (2).png" alt="">
+                <div class="d-flex gap-4 my-3 align-items-center">
+                    <img src="./images/Restaruant Logo (1).png" alt="">
+                    <div>
+                        <p class="restaurant-title text-body-emphasis">Pizza Hub</p>
+                        <p class="text-orange fw-semibold d-flex align-items-center gap-2"><img src="./images/star Icon.png" alt="">20</p>
+                    </div>
+                </div>
+                <button class="open-tmrow-btn my-2">Opens tommorow</button>
+            </div>
+            <div class="restaurant-cards my-4">
+                <img width="100%" src="./images/Food Photox (3).png" alt="">
+                <div class="d-flex gap-4 my-3 align-items-center">
+                    <img src="./images/Restaruant Logo (3).png" alt="">
+                    <div>
+                        <p class="restaurant-title text-body-emphasis">Donut Hub</p>
+                        <p class="text-orange fw-semibold d-flex align-items-center gap-2"><img src="./images/star Icon.png" alt="">46</p>
+                    </div>
+                </div>
+                <button class="open-now-btn my-2">Open Now</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-around align-items-center flex-wrap">
+            <div class="restaurant-cards my-4">
+                <img width="100%" src="./images/Food Photon.png" alt="">
+                <div class="d-flex gap-4 my-3 align-items-center">
+                    <img src="./images/Restaruant Logo.png" alt="">
+                    <div>
+                        <p class="restaurant-title text-body-emphasis">Food World</p>
+                        <p class="text-orange fw-semibold d-flex align-items-center gap-2"><img src="./images/star Icon.png" alt="">46</p>
+                    </div>
+                </div>
+                <button class="open-now-btn my-2">Open Now</button>
+            </div>
+            <div class="restaurant-cards my-4">
+                <img width="100%" src="./images/Food Photon(1).png" alt="">
+                <div class="d-flex gap-4 my-3 align-items-center">
+                    <img src="./images/Restaruant Logo (2).png" alt="">
+                    <div>
+                        <p class="restaurant-title text-body-emphasis">Food World</p>
+                        <p class="text-orange fw-semibold d-flex align-items-center gap-2"><img src="./images/star Icon.png" alt="">60</p>
+                    </div>
+                </div>
+                <button class="open-tmrow-btn my-2">Opens tommorow</button>
+            </div>
+            <div class="restaurant-cards my-4">
+                <img width="100%" src="./images/Food Photon (2).png" alt="">
+                <div class="d-flex gap-4 my-3 align-items-center">
+                    <img src="./images/Restaruant Logo (1).png" alt="">
+                    <div>
+                        <p class="restaurant-title text-body-emphasis">Pizza Hub</p>
+                        <p class="text-orange fw-semibold d-flex align-items-center gap-2"><img src="./images/star Icon.png" alt="">20</p>
+                    </div>
+                </div>
+                <button class="open-tmrow-btn my-2">Opens tommorow</button>
+            </div>
+            <div class="restaurant-cards my-4">
+                <img width="100%" src="./images/Food Photon (3).png" alt="">
+                <div class="d-flex gap-4 my-3 align-items-center">
+                    <img src="./images/Restaruant Logo (3).png" alt="">
+                    <div>
+                        <p class="restaurant-title text-body-emphasis">Donut Hub</p>
+                        <p class="text-orange fw-semibold d-flex align-items-center gap-2"><img src="./images/star Icon.png" alt="">46</p>
+                    </div>
+                </div>
+                <button class="open-now-btn my-2">Open Now</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center my-5">
+            <button class="viewall-btn">View all <i class="fa-solid fa-greater-than" style="color: #ffffff; font-size: 12px;"></i></button>
+        </div>
+    </section>
+
+    <section class="bg-lights py-5">
+        <div class="mx-5">
+            <h2 class="text-dark fw-bold my-3">Search by Food</h2>
+            <div class="d-flex flex-wrap justify-content-around" data-aos="fade-up" data-aos-duration="1000">
+                <div class="foods text-center">
+                    <img class="object-fit-cover" src="./images/Food Photok.png" alt="">
+                    <p class="my-2">Pizza</p>
+                </div>
+                <div class="foods text-center">
+                    <img class="object-fit-cover" src="./images/Food Photok (1).png" alt="">
+                    <p class="my-2">Burger</p>
+                </div>
+                <div class="foods text-center">
+                    <img class="object-fit-cover" src="./images/Food Photok (2).png" alt="">
+                    <p class="my-2">Noodles</p>
+                </div>
+                <div class="foods text-center">
+                    <img class="object-fit-cover" src="./images/Food Photok (3).png" alt="">
+                    <p class="my-2">Sub-Sandwitch</p>
+                </div>
+                <div class="foods text-center">
+                    <img class="object-fit-cover" src="./images/Food Photok (5).png" alt="">
+                    <p class="my-2">Steak</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-page container-fluid">
+
+        <div class="py-5 container">
+            <div class="special">
+                <div class="special-content">
+                    <img src="./images/Iconn.png" alt="">
+                    <h3>Daily <br> Discounts</h3>
+                </div>
+                <div class="special-content">
+                    <img src="./images/Iconn (1).png" alt="">
+                    <h3>Live <br> Tracing</h3>
+                </div>
+                <div class="special-content">
+                    <img src="./images/Iconn (2).png" alt="">
+                    <h3>Quick <br> Delivery</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-dowload row">
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class=" d-flex justify-content-center align-items-center">
+                    <img class="img-fluid" src="./images/phoneImage.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="download-page-header h-100 d-flex flex-column justify-content-center">
+                    <h1 class="download-page-title">Install the app</h1>
+                    <p>It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p>
+                    <div>
+                        <a href="#" class="app-download-img"> <img src="./images/App Store Download Button.png" alt=""></a>
+                        <a href="#" class="app-download-img"> <img src="./images/Google Play Download.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-3">
+        <div class="row deals-container my-5">
+            <div class="col-12 col-md-4">
+                <div class="deals">
+                    <h1>Celebrate Parties with <span>Fried Chicken</span></h1>
+                    <p>Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</p>
+                    <div class=" d-flex w-100 mt-5">
+                        <button class="w-100 proceed-btn">PROCEED TO ORDER <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <img width="100%" src="./images/Image (2).png" alt="">
+            </div>
+        </div>
+        <div class="row d-flex flex-row-reverse my-5">
+            <div class="col-12 col-md-4">
+                <div class="deals">
+                    <h1>Best deals <span>Crispy <br> Sandwiches</span></h1>
+                    <p>Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</p>
+                    <div class=" d-flex w-100 mt-5">
+                        <button class="w-100 proceed-btn">PROCEED TO ORDER <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <img width="100%" src="./images/Image (3).png" alt="">
+            </div>
+        </div>
+        <div class="row deals-container my-5">
+            <div class="col-12 col-md-4">
+                <div class="deals">
+                    <h1>Wanna eat hot & spicy<span> Pizza</span></h1>
+                    <p>Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</p>
+                    <div class=" d-flex w-100 mt-5">
+                        <button class="w-100 proceed-btn">PROCEED TO ORDER <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <img width="100%" src="./images/Image (1).png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="ready container-fluid">
+        <h1 class="text-center">Are you ready to order with <br> the best deals?</h1>
+        <button>Proceed to order <i class="fa-solid fa-greater-than" style="color: #ffffff; font-size: 16px ;"></i></button>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="container">
+            <h5 class="fw-semibold py-4">Our top cities</h5>
+            <div class="d-flex gap-1 flex-wrap pb-5 justify-content-between">
+                <div class="mt-3">
+                    <p>San Francisco</p>
+                    <p>Miami</p>
+                    <p>San Diego</p>
+                    <p>East Bay</p>
+                    <p>Long Beach</p>
+                </div>
+                <div class="mt-3">
+                    <p>San Francisco</p>
+                    <p>Miami</p>
+                    <p>San Diego</p>
+                    <p>East Bay</p>
+                    <p>Long Beach</p>
+                </div>
+                <div class="mt-3">
+                    <p>San Francisco</p>
+                    <p>Miami</p>
+                    <p>San Diego</p>
+                    <p>East Bay</p>
+                    <p>Long Beach</p>
+                </div>
+                <div class="mt-3">
+                    <p>San Francisco</p>
+                    <p>Miami</p>
+                    <p>San Diego</p>
+                    <p>East Bay</p>
+                    <p>Long Beach</p>
+                </div>
+                <div class="mt-3">
+                    <p>San Francisco</p>
+                    <p>Miami</p>
+                    <p>San Diego</p>
+                    <p>East Bay</p>
+                    <p>Long Beach</p>
+                </div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between flex-wrap pb-5">
+                <div class="about d-flex flex-wrap d-flex gap-5 justify-content-between">
+                    <div>
+                        <h5 class="py-4">Company</h5>
+                        <p>About us</p>
+                        <p>Teams</p>
+                        <p>Career</p>
+                        <p>Blogs</p>
+                    </div>
+                    <div>
+                        <h5 class="py-4">Contact</h5>
+                        <p>Help & Support</p>
+                        <p>Partner with us</p>
+                        <p>Ride with us</p>
+                    </div>
+                    <div>
+                        <h5 class="py-4">Legal</h5>
+                        <p>Terms & Conditions</p>
+                        <p>Refund & Cancellation</p>
+                        <p>Privacy Policy</p>
+                        <p>Cookie Policy</p>
+                    </div>
+                </div>
+
+                <div class="footer-follow d-flex flex-wrap flex-column justify-content-center py-4 gap-3">
+                    <p>FOLLOW US</p>
+                    <div>
+                        <i class="fa-brands fa-facebook" style="color: #404040;"></i>
+                        <i class="fa-brands fa-instagram" style="color: #404040;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #404040;"></i>
+                    </div>
+                    <p class="fw-semibold">Receive exclusive offers in your mailbox</p>
+                    <div class="footer-email">
+                        <input type="email" placeholder=" Enter your email"><button class="footer-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center pb-4">Developed by <strong>Abdul Rafay</strong></p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+    <script src=" https://kit.fontawesome.com/1700d76244.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

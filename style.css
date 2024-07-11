@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-orange {
+    color: #FFB30E !important;
+}
+
+.bg-lights {
+    background-color: #FEFAF1 !important;
+}
+
+p {
+    margin: 0px !important;
+}
+
+nav {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand>img {
+    width: 220px;
+}
+
+.navbar-toggler {
+    border: transparent !important;
+}
+
+
+.form-control::placeholder {
+    font-weight: 500;
+    color: black !important;
+}
+
+.form-control:active {
+    background-image: none;
+}
+
+.form-control {
+    border: transparent !important;
+}
+
+.form-control {
+    background-image: url(./images/Search.png) !important;
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+}
+
+.navbar-btn {
+    color: #FFB800 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 15px;
+    background-color: white;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #fad26f;
+}
+
+header {
+    background-color: #FDCB18;
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/Image\ Base.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.address-box {
+    background-color: white;
+    width: 55vw;
+    height: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.delivery-btn {
+    color: #F17228;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 700;
+    background-color: #FEF1E9;
+}
+
+.pickup-btn {
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 700;
+    background-color: white;
+}
+
+.find-btn {
+    background-image: linear-gradient(45deg, #FF9A7A, #F65900);
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: transparent;
+    padding: 0px 25px;
+    border-radius: 5px;
+}
+
+.address-input {
+    background-image: url(./images/Icon\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border: transparent;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    height: 50px;
+    overflow: hidden;
+    width: calc(100% - 154px);
+}
+
+.address-input::placeholder {
+    color: #9E9E9E;
+    padding: 20px;
+}
+
+.address-input:focus {
+    background-image: none;
+}
+
+.banner>h1 {
+    color: white;
+    font-weight: 700 !important;
+    font-size: 3rem;
+}
+
+.banner>p {
+    color: #504F4F;
+    padding-bottom: 20px;
+}
+
+.card {
+    border: transparent !important;
+}
+
+.card-title {
+    margin-top: 30px;
+}
+
+.card-text {
+    color: #F17228;
+    background-color: #FCE3D4;
+    border-radius: 5px;
+    bottom: 0;
+    padding: 5px;
+    margin: 10px 0 !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.work {
+    background-color: #FFFAF1;
+}
+
+.work>h2 {
+    font-weight: bold;
+    color: #F17228;
+}
+
+.work-spec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+}
+
+.popular-item {
+    width: 100%;
+}
+
+.popular-item-cards>img {
+    width: 100%;
+}
+
+.popular-item-cards {
+    width: 252px;
+}
+
+.popular-card-title,
+.popular-card-price {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.order-now {
+    background-color: #F17228;
+    border: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0px 5px 10px #fd725c;
+}
+
+.restaurant-cards {
+    width: 252px;
+}
+
+.restaurant-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.open-tmrow-btn {
+    border: transparent;
+    background-color: #FCE3D4;
+    border-radius: 10px;
+    color: #F65900;
+    font-weight: 700;
+    padding: 7px 20px;
+}
+
+.open-now-btn {
+    border: transparent;
+    background-color: #E4F1D8;
+    border-radius: 10px;
+    color: #79B93C;
+    font-weight: 700;
+    padding: 7px 20px;
+}
+
+.viewall-btn {
+    background-image: linear-gradient(45deg, #FFBA26, #FF9A0E);
+    color: white;
+    font-weight: 700;
+    border: transparent;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.foods {
+    width: 250px;
+}
+
+.foods>p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.download-page {
+    background-color: #FEEFD0;
+}
+
+.app-download-img>img {
+    margin-left: -44px !important;
+}
+
+.download-page-title {
+    color: #FFB800;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.download-page-header p {
+    width: 60%;
+    font-size: 18px;
+}
+
+.special {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    box-shadow: 0px 14px 15px #ffdf99;
+}
+
+.special-content {
+    display: flex;
+    align-items: center;
+    justify-content: between;
+    gap: 10px;
+    margin-top: 20px;
+    width: 270px;
+}
+
+.special-content>h3 {
+    font-weight: 700;
+    color: #F65900;
+}
+
+.special-content>img {
+    width: 136px;
+    height: 136px;
+}
+
+.deals-container {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.deals {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.deals>h1 {
+    font-weight: 700;
+}
+
+.deals>h1>span {
+    color: #FFB30E;
+}
+
+.deals>p {
+    color: rgba(97, 97, 97, 0.69);
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.proceed-btn {
+    font-weight: 700;
+    padding: 15px 0;
+    color: white;
+    border: transparent;
+    background: linear-gradient(45deg, #FFB800, #FF8A00);
+    border-radius: 10px;
+}
+
+.ready {
+    height: 320px;
+    background-image: url(./images/Imagex.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ready>h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.ready>button {
+    border: transparent;
+    border-radius: 10px;
+    background-color: #F16F28;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 25px;
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+}
+
+footer p {
+    color: #F5F5F5;
+}
+
+.footer-email {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-email>input {
+    border-radius: 5px;
+    border: transparent;
+    background-color: #757575;
+}
+
+.footer-email>input::placeholder {
+    color: #9E9E9E;
+}
+
+.footer-btn {
+    font-weight: 700;
+    padding: 10px 20px;
+    color: white;
+    border: transparent;
+    background: linear-gradient(45deg, #FFB800, #FF8A00);
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px #ffd66f8f;
+}
+
+@media (max-width:768px) {
+    header {
+        background-image: none;
+    }
+
+    .banner {
+        text-align: center !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .banner>h1 {
+        font-size: 2.3rem;
+    }
+
+    .address-box {
+        width: 100%;
+    }
+
+    .navbar>div {
+        margin: 0 !important;
+    }
+
+    .special {
+        justify-content: center;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .footer-follow {
+        width: 100%;
+        align-items: center;
+    }
+
+    .app-dowload {
+        flex-direction: column-reverse;
+    }
+
+    .deals-container {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media (max-width: 990px) {
+    .download-page-header {
+        align-items: center;
+    }
+
+    .app-download-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .app-download-img>img {
+        margin-left: 0px;
+    }
+
+    .download-page-header p {
+        width: 70%;
+        font-size: 18px;
+    }
+}
